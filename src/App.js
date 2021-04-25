@@ -37,7 +37,7 @@ class App extends Component {
   async componentDidMount() {
     try {
       const response = await fetch(
-        "http://jsonplaceholder.typicode.com/users",
+        "https://jsonplaceholder.typicode.com/users",
         {
           method: "GET",
         }
